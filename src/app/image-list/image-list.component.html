@@ -1,5 +1,5 @@
 <input class="search" [(ngModel)]="searchQuery" name="search" placeholder="Search for images">
-<br>
+<li><a routerLink="/about">About</a></li><br>
 <br>
 <button (click)="SearchImage(searchQuery)" class="btn btn-primary" type="button">Find Images</button>
 
@@ -14,4 +14,6 @@
     <p>Comments : {{image['comments']}}</p>
     <p>Likes : {{image['likes']}}</p>
 </div>
+
+
 
